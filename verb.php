@@ -2340,734 +2340,1536 @@
             </div>
             </div>
             <div class="row mb-3">
-            <div class="col-md-4">
-                <h3>Present Simple</h3>
-                <table>
-                <tr>
-                    <td class="subject">
-                    Do
-                    </td>
-                    <td>
-                    I
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Do
-                    </td>
-                    <td>
-                    you
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Does
-                    </td>
-                    <td>
-                    he
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Does
-                    </td>
-                    <td>
-                    she
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Does
-                    </td>
-                    <td>
-                    it
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Do
-                    </td>
-                    <td>
-                    We
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Do
-                    </td>
-                    <td>
-                    you
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Do
-                    </td>
-                    <td>
-                    they
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                </table>
-            </div>
-            <div class="col-md-4">
-                <h3>Past Simple</h3>
-                <table>
-                <tr>
-                    <td class="subject">
-                    Did
-                    </td>
-                    <td>
-                    i 
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Did
-                    </td>
-                    <td>
-                    you 
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Did
-                    </td>
-                    <td>
-                    he 
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Did
-                    </td>
-                    <td>
-                    she 
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Did
-                    </td>
-                    <td>
-                    it 
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Did
-                    </td>
-                    <td>
-                    we 
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Did
-                    </td>
-                    <td>
-                    you 
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Did
-                    </td>
-                    <td>
-                    they 
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                </table>
-            </div>
-            <div class="col-md-4">
-                <h3>Future Simple</h3>
-                <table>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    i
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    you
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    he
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    she
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    it
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    we
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    you
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    they
-                    </td>
-                    <td>
-                    study
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                </table>
-            </div>
+                <div class="col-md-4">
+                    <h3>Present Simple</h3>
+                    <table>
+                    <tr>
+                        <td class="subject">
+                        Do
+                        </td>
+                        <td>
+                        I
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Do
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Does
+                        </td>
+                        <td>
+                        he
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Does
+                        </td>
+                        <td>
+                        she
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Does
+                        </td>
+                        <td>
+                        it
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Do
+                        </td>
+                        <td>
+                        We
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Do
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Do
+                        </td>
+                        <td>
+                        they
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <h3>Past Simple</h3>
+                    <table>
+                    <tr>
+                        <td class="subject">
+                        Did
+                        </td>
+                        <td>
+                        i 
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Did
+                        </td>
+                        <td>
+                        you 
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Did
+                        </td>
+                        <td>
+                        he 
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Did
+                        </td>
+                        <td>
+                        she 
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Did
+                        </td>
+                        <td>
+                        it 
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Did
+                        </td>
+                        <td>
+                        we 
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Did
+                        </td>
+                        <td>
+                        you 
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Did
+                        </td>
+                        <td>
+                        they 
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <h3>Future Simple</h3>
+                    <table>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        i
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        he
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        she
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        it
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        we
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        they
+                        </td>
+                        <td>
+                        <?php echo $result["infinitive"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    </table>
+                </div>
             </div>
             <div class="row mb-3">
-            <div class="col-md-4">
-                <h3>Present Perfect</h3>
-                <table>
-                <tr>
-                    <td class="subject">
-                    Have
-                    </td>
-                    <td>
-                    i
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Have
-                    </td>
-                    <td>
-                    you
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Has
-                    </td>
-                    <td>
-                    he
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Has
-                    </td>
-                    <td>
-                    she
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Has
-                    </td>
-                    <td>
-                    it
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Have
-                    </td>
-                    <td>
-                    we
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Have
-                    </td>
-                    <td>
-                    you
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Have
-                    </td>
-                    <td>
-                    They
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                </table>
+                <div class="col-md-4">
+                    <h3>Present Perfect</h3>
+                    <table>
+                    <tr>
+                        <td class="subject">
+                        Have
+                        </td>
+                        <td>
+                        i
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Have
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Has
+                        </td>
+                        <td>
+                        he
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Has
+                        </td>
+                        <td>
+                        she
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Has
+                        </td>
+                        <td>
+                        it
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Have
+                        </td>
+                        <td>
+                        we
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Have
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Have
+                        </td>
+                        <td>
+                        They
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <h3>Past Perfect</h3>
+                    <table>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        i
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        he
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        she
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        it
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        we
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        they
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <h3>Future Perfect</h3>
+                    <table>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        i
+                        </td>
+                        <td>
+                        have
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        have
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        he
+                        </td>
+                        <td>
+                        have
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        she
+                        </td>
+                        <td>
+                        have
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        it
+                        </td>
+                        <td>
+                        have
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        we
+                        </td>
+                        <td>
+                        have
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        have
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        they
+                        </td>
+                        <td>
+                        have
+                        </td>
+                        <td>
+                        <?php echo $result["past_participle"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    </table>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h3>Past Perfect</h3>
-                <table>
-                <tr>
-                    <td class="subject">
-                    Had
-                    </td>
-                    <td>
-                    i
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Had
-                    </td>
-                    <td>
-                    you
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Had
-                    </td>
-                    <td>
-                    he
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Had
-                    </td>
-                    <td>
-                    she
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Had
-                    </td>
-                    <td>
-                    it
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Had
-                    </td>
-                    <td>
-                    we
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Had
-                    </td>
-                    <td>
-                    you
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Had
-                    </td>
-                    <td>
-                    they
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                </table>
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <h3>Present Continuous</h3>
+                    <table>
+                    <tr>
+                        <td class="subject">
+                        Am
+                        </td>
+                        <td>
+                        i
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Are
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Is
+                        </td>
+                        <td>
+                        he
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Is
+                        </td>
+                        <td>
+                        she
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Is
+                        </td>
+                        <td>
+                        it
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Are
+                        </td>
+                        <td>
+                        we
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Are
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Are
+                        </td>
+                        <td>
+                        They
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <h3>Past Continuous</h3>
+                    <table>
+                    <tr>
+                        <td class="subject">
+                        Was
+                        </td>
+                        <td>
+                        i
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Were
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Was
+                        </td>
+                        <td>
+                        he
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Was
+                        </td>
+                        <td>
+                        she
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Was
+                        </td>
+                        <td>
+                        it
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Were
+                        </td>
+                        <td>
+                        we
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Were
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Were
+                        </td>
+                        <td>
+                        they
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <h3>Future Continuous</h3>
+                    <table>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        i
+                        </td>
+                        <td>
+                        be
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        be
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        he
+                        </td>
+                        <td>
+                        be
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        she
+                        </td>
+                        <td>
+                        be
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        it
+                        </td>
+                        <td>
+                        be
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        we
+                        </td>
+                        <td>
+                        be
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        be
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        they
+                        </td>
+                        <td>
+                        be
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    </table>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h3>Future Perfect</h3>
-                <table>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    i
-                    </td>
-                    <td>
-                    have
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    you
-                    </td>
-                    <td>
-                    have
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    he
-                    </td>
-                    <td>
-                    have
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    she
-                    </td>
-                    <td>
-                    have
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    it
-                    </td>
-                    <td>
-                    have
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    we
-                    </td>
-                    <td>
-                    have
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    you
-                    </td>
-                    <td>
-                    have
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                <tr>
-                    <td class="subject">
-                    Will
-                    </td>
-                    <td>
-                    they
-                    </td>
-                    <td>
-                    have
-                    </td>
-                    <td>
-                    studied
-                    </td>
-                    <td>
-                    ?
-                    </td>
-                </tr>
-                </table>
-            </div>
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <h3>Present Perfect Continuous</h3>
+                    <table>
+                    <tr>
+                        <td class="subject">
+                        Have
+                        </td>
+                        <td>
+                        i
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Have
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Has
+                        </td>
+                        <td>
+                        he
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Has
+                        </td>
+                        <td>
+                        she
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Has
+                        </td>
+                        <td>
+                        it
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Have
+                        </td>
+                        <td>
+                        we
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Have
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Have
+                        </td>
+                        <td>
+                        They
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <h3>Past Perfect Continuous</h3>
+                    <table>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        i
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        he
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        she
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        it
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        we
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Had
+                        </td>
+                        <td>
+                        they
+                        </td>
+                        <td>
+                        been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <h3>Future Perfect Continuous</h3>
+                    <table>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        i
+                        </td>
+                        <td>
+                        have been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        have been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        he
+                        </td>
+                        <td>
+                        have been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        she
+                        </td>
+                        <td>
+                        have been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        it
+                        </td>
+                        <td>
+                        have been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        we
+                        </td>
+                        <td>
+                        have been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        you
+                        </td>
+                        <td>
+                        have been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="subject">
+                        Will
+                        </td>
+                        <td>
+                        they
+                        </td>
+                        <td>
+                        have been
+                        </td>
+                        <td>
+                        <?php echo $result["continuous"] ; ?>
+                        </td>
+                        <td>
+                        ?
+                        </td>
+                    </tr>
+                    </table>
+                </div>
             </div>
          </div>
     </section>
