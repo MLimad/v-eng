@@ -1,8 +1,9 @@
 <?php
     include './layout/doctype.php';
-    include './layout/navbar.php';
+    
 
     if (isset($_GET["verb"])) {
+    include './layout/navbar.php';
       $verb = $_GET["verb"];
     //   echo $verb;
 
@@ -3075,7 +3076,7 @@
 
     }
     else{
-        echo "Page not Found 404 :(";
+        include './layout/notfound.php';
     }
 
 ?>
