@@ -3081,7 +3081,7 @@
             include './layout/footer.php';
 
         }else{
-            echo "This Verb Does not Exist in Database";
+            include './layout/verb_not_found.php';
         }
 
     }
