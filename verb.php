@@ -1,12 +1,17 @@
 <?php
+    include './database/db.php';
     include './layout/doctype.php';
     
 
     if (isset($_GET["verb"])) {
     include './layout/navbar.php';
       $verb = $_GET["verb"];
-    //   echo $verb;
-
+    
+    $stmt = $con->prepare("SELECT * FROM verbs WHERE infinitive = ?");
+    $stmt->execute(array($verb));
+    $row = $stmt->rowCount();
+    if ($row > 0) {
+        $result = $stmt->fetch();
 ?>
 
         <!-- Affirmative Form. -->
@@ -26,7 +31,7 @@
                     I
                     </td>
                     <td>
-                    study
+                    <?php echo $result["present_simple"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -34,7 +39,7 @@
                     You
                     </td>
                     <td>
-                    study
+                    <?php echo $result["present_simple"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -42,7 +47,7 @@
                     He
                     </td>
                     <td>
-                    studies
+                    <?php echo $result["present_simple2"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -50,7 +55,7 @@
                     She
                     </td>
                     <td>
-                    studies
+                    <?php echo $result["present_simple2"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -58,7 +63,7 @@
                     It
                     </td>
                     <td>
-                    studies
+                    <?php echo $result["present_simple2"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -66,7 +71,7 @@
                     We
                     </td>
                     <td>
-                    study
+                    <?php echo $result["present_simple"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -74,7 +79,7 @@
                     You
                     </td>
                     <td>
-                    study
+                    <?php echo $result["present_simple"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -82,7 +87,7 @@
                     They
                     </td>
                     <td>
-                    study
+                    <?php echo $result["present_simple"]; ?>
                     </td>
                 </tr>
                 </table>
@@ -95,7 +100,7 @@
                     I
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_simple"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -103,7 +108,7 @@
                     You
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_simple"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -111,7 +116,7 @@
                     He
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_simple"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -119,7 +124,7 @@
                     She
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_simple"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -127,7 +132,7 @@
                     It
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_simple"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -135,7 +140,7 @@
                     We
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_simple"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -143,7 +148,7 @@
                     You
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_simple"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -151,7 +156,7 @@
                     They
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_simple"]; ?>
                     </td>
                 </tr>
                 </table>
@@ -167,7 +172,7 @@
                     will
                     </td>
                     <td>
-                    study
+                    <?php echo $result["infinitive"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -178,7 +183,7 @@
                     will
                     </td>
                     <td>
-                    study
+                    <?php echo $result["infinitive"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -189,7 +194,7 @@
                     will
                     </td>
                     <td>
-                    study
+                    <?php echo $result["infinitive"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -200,7 +205,7 @@
                     will
                     </td>
                     <td>
-                    study
+                    <?php echo $result["infinitive"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -211,7 +216,7 @@
                     will
                     </td>
                     <td>
-                    study
+                    <?php echo $result["infinitive"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -222,7 +227,7 @@
                     will
                     </td>
                     <td>
-                    study
+                    <?php echo $result["infinitive"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -233,7 +238,7 @@
                     will
                     </td>
                     <td>
-                    study
+                    <?php echo $result["infinitive"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -244,7 +249,7 @@
                     will
                     </td>
                     <td>
-                    study
+                    <?php echo $result["infinitive"]; ?>
                     </td>
                 </tr>
                 </table>
@@ -262,7 +267,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -273,7 +278,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -284,7 +289,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -295,7 +300,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -306,7 +311,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -317,7 +322,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -328,7 +333,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -339,7 +344,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 </table>
@@ -355,7 +360,7 @@
                     had
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -366,7 +371,7 @@
                     had
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -377,7 +382,7 @@
                     had
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -388,7 +393,7 @@
                     had
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -399,7 +404,7 @@
                     had
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -410,7 +415,7 @@
                     had
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -421,7 +426,7 @@
                     had
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -432,7 +437,7 @@
                     had
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 </table>
@@ -451,7 +456,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -465,7 +470,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -479,7 +484,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -493,7 +498,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -507,7 +512,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -521,7 +526,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -535,7 +540,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -549,7 +554,7 @@
                     have
                     </td>
                     <td>
-                    studied
+                    <?php echo $result["past_participle"]; ?>
                     </td>
                 </tr>
                 </table>
@@ -567,7 +572,7 @@
                     am
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -578,7 +583,7 @@
                     are
                     </td>
                     <td>
-                        studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -589,7 +594,7 @@
                     is
                     </td>
                     <td>
-                        studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -600,7 +605,7 @@
                     is
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -611,7 +616,7 @@
                     is
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -622,7 +627,7 @@
                     are
                     </td>
                     <td>
-                        studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -633,7 +638,7 @@
                     are
                     </td>
                     <td>
-                        studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -644,7 +649,7 @@
                     are
                     </td>
                     <td>
-                        studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 </table>
@@ -660,7 +665,7 @@
                     was
                     </td>
                     <td>
-                        studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -671,7 +676,7 @@
                     were
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -682,7 +687,7 @@
                     was
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -693,7 +698,7 @@
                     was
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -704,7 +709,7 @@
                     was
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -715,7 +720,7 @@
                     were
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -726,7 +731,7 @@
                     were
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -737,7 +742,7 @@
                     were
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 </table>
@@ -756,7 +761,7 @@
                     be
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -770,7 +775,7 @@
                     be
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -784,7 +789,7 @@
                     be
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -798,7 +803,7 @@
                     be
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -812,7 +817,7 @@
                     be
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -826,7 +831,7 @@
                     be
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -840,7 +845,7 @@
                     be
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -854,7 +859,7 @@
                     be
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 </table>
@@ -872,7 +877,7 @@
                         have been
                         </td>
                         <td>
-                        studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -883,7 +888,7 @@
                         have been
                         </td>
                         <td>
-                            studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -894,7 +899,7 @@
                         has been
                         </td>
                         <td>
-                            studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -905,7 +910,7 @@
                         has been
                         </td>
                         <td>
-                        studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -916,7 +921,7 @@
                         has been
                         </td>
                         <td>
-                        studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -927,7 +932,7 @@
                         have been
                         </td>
                         <td>
-                            studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -938,7 +943,7 @@
                         have been
                         </td>
                         <td>
-                            studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -949,7 +954,7 @@
                         have been
                         </td>
                         <td>
-                            studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     </table>
@@ -965,7 +970,7 @@
                         had been
                         </td>
                         <td>
-                            studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -976,7 +981,7 @@
                         had been
                         </td>
                         <td>
-                        studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -987,7 +992,7 @@
                         had been
                         </td>
                         <td>
-                        studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -998,7 +1003,7 @@
                         had been
                         </td>
                         <td>
-                        studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -1009,7 +1014,7 @@
                         had been
                         </td>
                         <td>
-                        studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -1020,7 +1025,7 @@
                         had been
                         </td>
                         <td>
-                        studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -1031,7 +1036,7 @@
                         had been
                         </td>
                         <td>
-                        studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -1042,7 +1047,7 @@
                         had been
                         </td>
                         <td>
-                        studying
+                        <?php echo $result["continuous"]; ?>
                         </td>
                     </tr>
                     </table>
@@ -1058,7 +1063,7 @@
                     will have been
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -1069,7 +1074,7 @@
                     will have been
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -1080,7 +1085,7 @@
                     will have been
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -1091,7 +1096,7 @@
                     will have been
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -1102,7 +1107,7 @@
                     will have been
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -1113,7 +1118,7 @@
                     will have been
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -1124,7 +1129,7 @@
                     will have been
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 <tr>
@@ -1135,7 +1140,7 @@
                     will have been
                     </td>
                     <td>
-                    studying
+                    <?php echo $result["continuous"]; ?>
                     </td>
                 </tr>
                 </table>
@@ -3071,8 +3076,13 @@
 
 
 <?php
-    include './layout/login.php';
-    include './layout/footer.php';
+    
+            include './layout/login.php';
+            include './layout/footer.php';
+
+        }else{
+            echo "This Verb Does not Exist in Database";
+        }
 
     }
     else{
