@@ -286,7 +286,7 @@
                     He
                     </td>
                     <td>
-                    have
+                    has
                     </td>
                     <td>
                     <?php echo $result["past_participle"]; ?>
@@ -297,7 +297,7 @@
                     She
                     </td>
                     <td>
-                    have
+                    has
                     </td>
                     <td>
                     <?php echo $result["past_participle"]; ?>
@@ -308,7 +308,7 @@
                     It
                     </td>
                     <td>
-                    have
+                    has
                     </td>
                     <td>
                     <?php echo $result["past_participle"]; ?>
@@ -3874,13 +3874,170 @@
          </div>
     </section>
 
-
-
-
 <?php
     
             include './layout/login.php';
             include './layout/footer.php';
+
+        }elseif (isset($_GET["verb"]) AND $_GET["verb"] == "can") {
+?>
+
+    <!-- Affirmative Form. -->
+    <section class="table-affir">
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="title">Affirmative Form.</h2>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <h3>Present Simple</h3>
+                        <table>
+                        <tr>
+                            <td class="subject">
+                            I
+                            </td>
+                            <td>
+                            can
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            You
+                            </td>
+                            <td>
+                            can
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            He
+                            </td>
+                            <td>
+                            can
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            She
+                            </td>
+                            <td>
+                            can
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            It
+                            </td>
+                            <td>
+                            can
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            We
+                            </td>
+                            <td>
+                            can
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            You
+                            </td>
+                            <td>
+                            can
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            They
+                            </td>
+                            <td>
+                            can
+                            </td>
+                        </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Past Simple</h3>
+                        <table>
+                        <tr>
+                            <td class="subject">
+                            I
+                            </td>
+                            <td>
+                            could
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            You
+                            </td>
+                            <td>
+                            could
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            He
+                            </td>
+                            <td>
+                            could
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            She
+                            </td>
+                            <td>
+                            could
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            It
+                            </td>
+                            <td>
+                            could
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            We
+                            </td>
+                            <td>
+                            could
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            You
+                            </td>
+                            <td>
+                            could
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="subject">
+                            They
+                            </td>
+                            <td>
+                            could
+                            </td>
+                        </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </section>
+    
+
+<?php
+        include './layout/login.php';
+        include './layout/footer.php';
 
         }else{
             include './layout/verb_not_found.php';
